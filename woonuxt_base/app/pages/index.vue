@@ -1,7 +1,9 @@
 <template>
   <main>
     <Hero />
+    <NextHero />
     <Discounts />
+    <AboutSec />
   </main>
 </template>
 

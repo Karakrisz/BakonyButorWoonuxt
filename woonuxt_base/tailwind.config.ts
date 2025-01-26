@@ -20,6 +20,8 @@ export default {
         'dark': '#1D1E19',
         'light': '#fafafa',
         'button': '#efefef',
+        'green': '#8DBA36',
+        'green-light': '#F3FFDC',
       },
       fontFamily: {
         'raleway': ['Raleway'],
