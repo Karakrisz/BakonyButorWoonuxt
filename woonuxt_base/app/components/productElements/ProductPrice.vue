@@ -10,7 +10,7 @@ const { regularPrice, salePrice } = defineProps<ProductPriceProps>();
 <template>
   <div class="flex gap-[15px] items-center">
     <span class="line-through text-gray-700 text-[14px] uppercase" v-html="regularPrice"/>
-    <span class="text-[20px] uppercase text-black font-bold" v-html="salePrice"/>
+    <span class="text-[20px] uppercase text-black font-normal" v-html="salePrice"/>
   </div>
 
 </template>

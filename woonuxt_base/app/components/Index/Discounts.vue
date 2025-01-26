@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 // Use better composables for data fetching
 const {
   data: saleProductsData,

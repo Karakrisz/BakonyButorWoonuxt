@@ -11,8 +11,6 @@ const links = [
   { name: 'Referenciák', link: '/referenciak' },
   { name: 'Kapcsolat', link: '/kapcsolat' },
 ];
-
-
 </script>
 
 <template>
@@ -23,10 +21,11 @@ const links = [
       <NuxtLink to="/" class="shrink-0">
         <NuxtImg src="/img/logo.svg" class="header-logo" />
       </NuxtLink>
-      <div class="space-x-16 lg:flex items-center hidden">
+      <div class="lg:flex items-center hidden">
         <NuxtLink v-for="link in links" :key="link.name" :to="link.link"
           class="text-sm w-[130px] flex h-[50px] items-center justify-center text-center transition-colors duration-200 hover:bg-light border-b-2 border-b-transparent hover:border-green box-border"
-          activeClass="bg-light border-b-2 !border-green">{{ link.name }}</NuxtLink>
+          activeClass="bg-light border-b-2 !border-green">{{ link.name }}
+        </NuxtLink>
       </div>
       <div class="flex gap-4">
         <ProductSearch class="hidden md:inline-flex max-w-[320px]" />
