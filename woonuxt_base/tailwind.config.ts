@@ -18,14 +18,23 @@ export default {
         'secondary-dark': '#423a38',
         'disabled': '#afafaf',
         'dark': '#1D1E19',
+        'light': '#fafafa',
+        'button': '#efefef',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        'raleway': ['Raleway'],
+        'lexend': ['Lexend'],
       },
     },
     container: {
       center: true,
-      padding: '1.5rem',
+      padding: {
+        DEFAULT: "1.5rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
+      },
     },
   },
   plugins: [

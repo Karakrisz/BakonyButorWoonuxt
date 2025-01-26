@@ -14,7 +14,7 @@
   }
 
   .button {
-    @apply uppercase px-[42px] py-[10px] rounded-full text-center transition flex gap-1 items-center justify-center;
+    @apply px-12 py-3 text-xs transition hover:bg-opacity-90 hover:brightness-[85%];
 
     &.button-primary {
       @apply bg-primary hover:bg-primary-dark text-white;

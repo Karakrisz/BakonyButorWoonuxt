@@ -20,7 +20,7 @@ watch(
 
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - Itália Pizzéria és Étterem` : 'Itália Pizzéria és Étterem';
+    return titleChunk ? `${titleChunk} - Bakony Bútor` : 'Bakony Bútor';
   }
 })
 </script>

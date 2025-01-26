@@ -11,7 +11,7 @@ const links = [
       <MenuTrigger class="lg:hidden" />
 
       <NuxtLink to="/" class="shrink-0">
-        <NuxtImg src="/img/header/logo.png" class="header-logo" />
+        <NuxtImg src="/img/logo.svg" class="header-logo" />
       </NuxtLink>
       <div class="space-x-16 lg:flex items-center hidden">
         <NuxtLink v-for="link in links" :key="link.name" :to="link.link" class="header-link">{{ link.name }}</NuxtLink>
