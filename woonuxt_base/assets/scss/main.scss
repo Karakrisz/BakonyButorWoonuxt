@@ -18,7 +18,7 @@
     @apply px-12 py-3 text-xs transition hover:bg-opacity-90 hover:brightness-[85%];
 
     &.button-primary {
-      @apply bg-primary hover:bg-primary-dark text-white;
+      @apply bg-primary hover:bg-primary-dark text-black;
     }
 
     &.button-secondary {

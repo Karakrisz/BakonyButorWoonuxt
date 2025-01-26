@@ -52,7 +52,7 @@ const onSaleProducts = computed(() => saleProductsData.value);
       </template>
 
       <div class="flex gap-[10px] items-center justify-center">
-        <NuxtLink to="/products" class=""> Tovább az teljes étlapra </NuxtLink>
+        <NuxtLink to="/products" class="">Összes termék </NuxtLink>
         <PhosphorIconArrowRight />
       </div>
     </div>

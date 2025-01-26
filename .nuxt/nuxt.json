@@ -1,9 +1,9 @@
 {
-  "_hash": "1j0aKzgn5n",
+  "_hash": "5jpvuFf9yZ",
   "project": {
     "rootDir": "/Applications/XAMPP/xamppfiles/htdocs/BakonyButorWoonuxt"
   },
   "versions": {
-    "nuxt": "3.15.1"
+    "nuxt": "3.15.3"
   }
 }

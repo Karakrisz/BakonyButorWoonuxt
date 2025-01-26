@@ -89,12 +89,6 @@
       "public": [
         "../public"
       ],
-      "#build": [
-        "."
-      ],
-      "#build/*": [
-        "./*"
-      ],
       "#constants": [
         "../woonuxt_base/app/constants"
       ],
@@ -159,16 +153,22 @@
         "./imports"
       ],
       "#tailwind-config": [
-        "./tailwind.config"
+        "./tailwind/expose"
       ],
       "#tailwind-config/*": [
-        "./tailwind.config/*"
+        "./tailwind/expose/*"
       ],
       "#app-manifest": [
         "./manifest/meta/dev"
       ],
       "#components": [
         "./components"
+      ],
+      "#build": [
+        "."
+      ],
+      "#build/*": [
+        "./*"
       ]
     },
     "esModuleInterop": true,

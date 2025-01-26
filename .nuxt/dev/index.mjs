@@ -2098,8 +2098,8 @@ const renderer = defineRenderHandler(async (event) => {
         islandHead[key] = value;
       }
     }
-    islandHead.link = islandHead.link || [];
-    islandHead.style = islandHead.style || [];
+    islandHead.link ||= [];
+    islandHead.style ||= [];
     const islandResponse = {
       id: islandContext.id,
       head: islandHead,

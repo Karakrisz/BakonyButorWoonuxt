@@ -12,8 +12,8 @@ export default {
     extend: {
       colors: {
         'digital-seed': '#1AC78D',
-        'primary': '#B84C37',
-        'primary-dark': '#993c29',
+        'primary': '#F3FFDC',
+        'primary-dark': '#8DBA36',
         'secondary': '#5b5452',
         'secondary-dark': '#423a38',
         'disabled': '#afafaf',
@@ -24,6 +24,8 @@ export default {
         'green-light': '#F3FFDC',
         'green-500': '#4CAF50',
         'green-50': '#F0FFF4', 
+        'green-100': '#D1FAE5', 
+        'green-600': '#4CAF50',
       },
       fontFamily: {
         'raleway': ['Raleway'],
