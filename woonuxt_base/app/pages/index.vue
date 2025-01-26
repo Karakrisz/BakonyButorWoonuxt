@@ -4,6 +4,7 @@
     <NextHero />
     <Discounts />
     <AboutSec />
+    <BlogSec />
   </main>
 </template>
 

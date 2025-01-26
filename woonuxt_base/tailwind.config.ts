@@ -22,6 +22,8 @@ export default {
         'button': '#efefef',
         'green': '#8DBA36',
         'green-light': '#F3FFDC',
+        'green-500': '#4CAF50',
+        'green-50': '#F0FFF4', 
       },
       fontFamily: {
         'raleway': ['Raleway'],

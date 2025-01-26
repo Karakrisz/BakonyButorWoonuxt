@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const links = [
     { text: "Főoldal", to: "/", prefetch: false},
-    { text: "Rólunk", to: "/rolunk", prefetch: false},
-    { text: "Galéria", to: "/galeria", prefetch: false },
-    { text: "Étlap", to: "/products", prefetch: false },
+    { text: "Galéria", to: "/galeria", prefetch: false},
+    { text: "Rólunk", to: "/rolunk", prefetch: false },
+    { text: "Referenciák", to: "/referenciak", prefetch: false },
     { text: "Kapcsolat", to: "/kapcsolat", prefetch: false },
 ];
 </script>
