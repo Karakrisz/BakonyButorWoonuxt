@@ -858,7 +858,7 @@ const _inlineRuntimeConfig = {
     "LOGO": "",
     "PRODUCTS_PER_PAGE": 24,
     "GLOBAL_PRODUCT_ATTRIBUTES": [],
-    "MAX_PRICE": 5000,
+    "MAX_PRICE": 90,
     "FRONT_END_URL": "http://localhost:3000",
     "CURRENCY_CODE": "HUF",
     "CURRENCY_SYMBOL": "Ft",

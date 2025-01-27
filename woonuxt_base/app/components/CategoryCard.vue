@@ -35,5 +35,7 @@ const imgHeight = Math.round(imgWidth * 1.125);
   scroll-snap-align: start;
   scroll-snap-stop: always;
   aspect-ratio: 4 / 5;
+  height: 10em;
+  width: 100%;
 }
 </style>
