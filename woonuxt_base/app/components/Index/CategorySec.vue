@@ -2,7 +2,7 @@
 import { ProductsOrderByEnum } from '#woo';
 const { siteName, description, shortDescription, siteImage } = useAppConfig();
 
-const { data } = await useAsyncGql('getProductCategories', { first: 4 });
+const { data } = await useAsyncGql('getProductCategories', { first: 8 });
 const productCategories = data.value?.productCategories?.nodes || [];
 
 
