@@ -32,7 +32,7 @@ export default defineNuxtConfig({
         {
           hid: "description",
           name: "description",
-          content: "Személyre szabott biztosítási megoldások mindenkinek. Megbízható alkusz a biztosítási piacon.",
+          content: "Minőségi bútorok Kaposváron és Somogy megyében – széles választék otthonába, irodájába, vagy üzletébe!",
         },
         { name: "format-detection", content: "telephone=no" },
         { hid: "robots", name: "robots", content: "index, follow" },
