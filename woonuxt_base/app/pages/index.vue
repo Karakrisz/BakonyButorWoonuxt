@@ -2,7 +2,7 @@
   <main>
     <Hero />
     <NextHero />
-   <!-- <Discounts /> -->
+    <!-- <Discounts /> -->
     <CategorySec />
     <AboutSec />
     <BlogSec />
