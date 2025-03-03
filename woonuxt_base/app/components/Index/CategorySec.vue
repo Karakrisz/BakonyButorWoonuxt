@@ -8,7 +8,7 @@ const productCategories = ref([]);
 watchEffect(() => {
   if (data.value?.productCategories?.nodes) {
     productCategories.value = data.value.productCategories.nodes;
-   // console.log('Kategóriák betöltve:', productCategories.value);
+    console.log('Kategóriák betöltve:', productCategories.value);
   }
 });
 
